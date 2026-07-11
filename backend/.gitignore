@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+.venv/
+
+# Environment variables
+.env
+
+# Generated files
+uploads/
+extracted_images/
+vector_store.db
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,4 +1,4 @@
-from app.infrastructure.parsers.chunks_embedders.sentence_embedding import SentenceTransformerEmbedding
+from app.infrastructure.chunks_embedders.sentence_embedding import SentenceTransformerEmbedding
 from app.infrastructure.vectorDB_inserter.in_memory_vector_store import InMemoryVectorStore
 from app.core.model.chunk import Chunk
 
