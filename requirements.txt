@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+pypdf==5.1.0
+pdfplumber
+pymupdf
+sentence-transformers
+google-genai
+python-dotenv
+pytest==8.1.1
