@@ -1,10 +1,10 @@
-# 📄 Legal Contract Assistant
+#  Legal Contract Assistant
 
 An AI-powered Legal Contract Assistant built using **FastAPI**, **Retrieval-Augmented Generation (RAG)**, **Sentence Transformers**, and **Google Gemini**. The application allows users to upload legal contract PDFs and ask natural language questions about their contents.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Upload legal contract PDFs
 - Extract text from PDF documents
@@ -17,7 +17,7 @@ An AI-powered Legal Contract Assistant built using **FastAPI**, **Retrieval-Augm
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Backend
 - Python
@@ -42,7 +42,7 @@ An AI-powered Legal Contract Assistant built using **FastAPI**, **Retrieval-Augm
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 backend/
@@ -67,7 +67,7 @@ backend/
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 ```
                 Upload PDF
@@ -99,7 +99,7 @@ backend/
 
 ---
 
-## 📌 API Endpoints
+##  API Endpoints
 
 ### Upload a Contract
 
@@ -129,7 +129,7 @@ Example:
 
 ---
 
-## 🧠 RAG Pipeline
+##  RAG Pipeline
 
 1. Upload Contract PDF
 2. Parse document
@@ -142,7 +142,7 @@ Example:
 
 ---
 
-## ▶️ Installation
+##  Installation
 
 Clone the repository
 
@@ -184,7 +184,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Running the Application
+##  Running the Application
 
 ```bash
 uvicorn app.main:app --reload
@@ -198,7 +198,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## 📖 Example Workflow
+##  Example Workflow
 
 1. Start the FastAPI server.
 2. Upload a legal contract PDF using `/upload`.
@@ -207,7 +207,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Replace In-Memory Vector Store with Pinecone or Qdrant
 - Support multiple uploaded documents
@@ -220,7 +220,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions, suggestions, and feedback are welcome.
 
@@ -228,7 +228,7 @@ Feel free to fork the repository and create a pull request.
 
 ---
 
-## 📜 License
+##  License
 
 This project is intended for educational and learning purposes.
 
@@ -238,7 +238,7 @@ This project is intended for educational and learning purposes.
 
 ## Upload Endpoint
 
-![Upload Endpoint](screenshots/uploaded and indexed.png)
+![Upload Endpoint](screenshots/uploadedandindexed.png)
 
 ## Ask Endpoint
 
@@ -246,4 +246,4 @@ This project is intended for educational and learning purposes.
 
 ## Response
 
-![Response](screenshots/got answer.png)
+![Response](screenshots/gotanswer.png)
